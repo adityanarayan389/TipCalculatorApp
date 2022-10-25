@@ -36,7 +36,7 @@ fun RoundIconButton(
         backgroundColor = backgroundColor,
         elevation = elevation) {
         Icon(
-            imageVector = painterResource(id = R.drawable.ic_baseline_remove_24),
+            imageVector = imageVector,
             contentDescription = "plus or minus icon",
             tint = tint,
         )
